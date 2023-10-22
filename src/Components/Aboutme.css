@@ -1,0 +1,46 @@
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading_main {
+  border-bottom: 5px solid rgb(6, 2, 32);
+}
+.Paragraph {
+  font-size: 23px;
+}
+.about_me {
+  height: 400px;
+  width: 32%;
+}
+.skil {
+  height: auto;
+  width: 32%;
+}
+.divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sk {
+  height: 20px;
+  width: 120px;
+  border-radius: 5px;
+  border: 2px solid rgb(49, 48, 52);
+  background-color: rgb(48, 47, 47);
+  color: #ffff;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+.separator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow: hidden;
+}
+.chart {
+  margin-left: 20px;
+}

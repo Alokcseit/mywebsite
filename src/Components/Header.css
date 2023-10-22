@@ -1,0 +1,63 @@
+.logo {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border-left: 5px solid rgb(92, 77, 252);
+  border-top: 5px solid rgb(255, 40, 241);
+  border-right: 2px solid rgb(40, 76, 255);
+  border-bottom: 1.5px solid rgb(255, 40, 201);
+  margin-left: 20px;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logoimage {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+.logoimage2 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.name {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+.head {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: aliceblue;
+}
+.links1,
+.links2,
+.links3 {
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3px;
+
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.links1:hover,
+.links2:hover,
+.links3:hover {
+  background-color: rgba(10, 7, 45, 0.756);
+  color: #ffff;
+}
+
+.active {
+  color: #ffff;
+  background-color: rgba(10, 7, 45, 0.756);
+}

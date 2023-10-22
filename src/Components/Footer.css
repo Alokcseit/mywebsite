@@ -1,0 +1,40 @@
+.footer_main {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(51, 46, 46);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+}
+.subfooter1 {
+  width: 40%;
+  height: auto;
+}
+.subfooter2 {
+  width: 30%;
+  height: auto;
+}
+.headd {
+  color: #ffff;
+  font-size: 30px;
+}
+.paraa {
+  color: #ffff;
+  font-size: 17px;
+}
+.social {
+  color: #ffff;
+}
+.socialicon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.iconsall {
+  color: #ffff;
+}
+.ftr {
+  background-color: rgb(51, 46, 46);
+  height: 300px;
+}
