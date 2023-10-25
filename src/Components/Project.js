@@ -17,7 +17,7 @@ const projects = [
       "https://5.imimg.com/data5/SELLER/Default/2022/6/GH/DI/EZ/69487233/bookmyshow.png",
     descryption:
       " Its a  ticket booking app where i use react , reactstrap for frontend purpose",
-    link: "streampage.vercel.app",
+    link: "https://streampage.vercel.app/",
   },
   {
     id: 2,

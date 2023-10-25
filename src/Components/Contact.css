@@ -1,0 +1,18 @@
+.fakecontainer {
+  height: 110px;
+}
+.c_formvalue {
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+}
+.c_form {
+  width: 100%;
+
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

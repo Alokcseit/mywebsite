@@ -31,10 +31,17 @@ function Footer() {
               </div>
 
               <div className="iconsall">
-                <LinkedInIcon></LinkedInIcon>
+                <a
+                  className="li1"
+                  href="https://www.linkedin.com/in/alok-kumar-80485822a/"
+                >
+                  <LinkedInIcon></LinkedInIcon>
+                </a>
               </div>
               <div className="iconsall">
-                <GitHubIcon></GitHubIcon>
+                <a className="li1" href="https://github.com/Alokcseit">
+                  <GitHubIcon></GitHubIcon>
+                </a>
               </div>
               <div className="iconsall">
                 <EmailIcon></EmailIcon>
@@ -46,7 +53,7 @@ function Footer() {
           </div>
         </div>
         <div style={{ color: "#ffff", marginLeft: "550px", marginTop: "50px" }}>
-          © Copyright 2023. Made by  ALOK KUMAR SWAIN
+          © Copyright 2023. Made by ALOK KUMAR SWAIN
         </div>
       </div>
     </>

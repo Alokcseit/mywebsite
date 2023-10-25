@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -9,6 +9,13 @@ import Aboutme from "./Aboutme";
 import Footer from "./Footer";
 
 export default function Cntent() {
+  useEffect(() => {
+    // Add Tidio script here
+    const tidioScript = document.createElement("script");
+    tidioScript.src = "//code.tidio.co/imvuuq7eok23an8r9ymgupmbhzxvgvld.js";
+    tidioScript.async = true;
+    document.head.appendChild(tidioScript);
+  }, []);
   return (
     <>
       <div className="container1">
@@ -20,10 +27,17 @@ export default function Cntent() {
             </div>
 
             <div className="icons">
-              <LinkedInIcon></LinkedInIcon>
+              <a
+                className="li"
+                href="https://www.linkedin.com/in/alok-kumar-80485822a/"
+              >
+                <LinkedInIcon></LinkedInIcon>
+              </a>
             </div>
             <div className="icons">
-              <GitHubIcon></GitHubIcon>
+              <a className="li" href="https://github.com/Alokcseit">
+                <GitHubIcon></GitHubIcon>
+              </a>
             </div>
             <div className="icons">
               <EmailIcon></EmailIcon>

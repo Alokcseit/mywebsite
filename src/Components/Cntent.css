@@ -250,3 +250,7 @@
     transform: translateY(0);
   }
 }
+.li {
+  text-decoration: none;
+  color: #020224;
+}
