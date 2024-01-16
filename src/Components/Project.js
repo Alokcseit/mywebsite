@@ -37,6 +37,12 @@ const projects = [
       " Its  an AI application where you can get the image from the  text , in this project i use reactjs for frontend and  node nad express for backend  and for database purpose i used mongodb atlas",
     link: "https://imagegenerator-openai.netlify.app",
   },
+  {
+    id: 4,
+    url: "https://reduxsh.netlify.app/",
+    descryption: "this a small  redux project",
+    link: "https://reduxsh.netlify.app/",
+  },
 ];
 var n = projects.length;
 function Project() {
