@@ -26,7 +26,7 @@ const projects = [
       "https://i.natgeofe.com/k/d0b3ae30-1cb2-4f9e-92d5-79b97e75d0e1/MAR-23-NGK-Cover-FB.jpg",
     descryption:
       " in this project i use mainly reactjs  for frontend  ,for styling i use bootstrap and reactstrap",
-    link: "https://imaginative-profiterole-ad771c.netlify.app",
+    link: "https://reactapp-six-jet.vercel.app/",
   },
   {
     id: 3,
@@ -42,6 +42,12 @@ const projects = [
     url: "https://reduxsh.netlify.app/",
     descryption: "this a small  redux project",
     link: "https://reduxsh.netlify.app/",
+  },
+  {
+    id: 5,
+    url: "https://crudoprtn.netlify.app/",
+    descryption: "this a small  redux project",
+    link: "https://crudoprtn.netlify.app/",
   },
 ];
 var n = projects.length;
