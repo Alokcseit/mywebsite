@@ -17,7 +17,7 @@ const projects = [
       "https://play-lh.googleusercontent.com/UiddCIXrr8QxotweGpbP7hHvfngT0Tjka8QfO3eofTnThRjP-bknuAzAc2pAVQQ83w",
     descryption:
       "Customers can find popular vegan brands as well as discover new products across various categories. The website provides a convenient platform for vegans, vegetarians, and individuals interested in cruelty-free and plant-based living to explore and purchase items that align with their values and lifestyle choices.",
-    link: "https://streampage.vercel.app/",
+    link: "https://vegan-essentials-8t9q.vercel.app/",
   },
   {
     id: 2,
