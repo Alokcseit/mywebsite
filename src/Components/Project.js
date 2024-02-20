@@ -12,11 +12,11 @@ import { useState, useEffect } from "react";
 const projects = [
   {
     id: 1,
-    title: "Book my show",
+    title: "Vegan Essentials",
     image:
-      "https://5.imimg.com/data5/SELLER/Default/2022/6/GH/DI/EZ/69487233/bookmyshow.png",
+      "https://play-lh.googleusercontent.com/UiddCIXrr8QxotweGpbP7hHvfngT0Tjka8QfO3eofTnThRjP-bknuAzAc2pAVQQ83w",
     descryption:
-      " Its a  ticket booking app where i use react , reactstrap for frontend purpose",
+      "Customers can find popular vegan brands as well as discover new products across various categories. The website provides a convenient platform for vegans, vegetarians, and individuals interested in cruelty-free and plant-based living to explore and purchase items that align with their values and lifestyle choices.",
     link: "https://streampage.vercel.app/",
   },
   {
