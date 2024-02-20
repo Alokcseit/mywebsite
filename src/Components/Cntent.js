@@ -52,14 +52,14 @@ export default function Cntent() {
                 <div class="box">
                   <div class="title">
                     <span class="block"></span>
-                    <h1>
+                    <h1 className="myname">
                       ALOK KUMAR SWAIN<span></span>
                     </h1>
                   </div>
 
                   <div class="role">
                     <div class="block"></div>
-                    <p> A WEB DEVELOPER</p>
+                    <p className="myrole"> A WEB DEVELOPER</p>
                   </div>
                 </div>
               </div>

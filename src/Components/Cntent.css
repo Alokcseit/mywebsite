@@ -280,4 +280,9 @@
   .subc_right {
     width: 100%;
   }
+  .animated-text {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
 }

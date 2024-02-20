@@ -78,6 +78,8 @@
 
   .Paragraph {
     font-size: 15px; /* Reduce font size for smaller screens */
+    margin-left: 8px;
+    margin-right: 5px;
   }
 
   .sk {
