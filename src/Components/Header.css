@@ -31,6 +31,7 @@
 .name {
   font-size: 25px;
   font-family: "Times New Roman", Times, serif;
+  width: auto;
 }
 .head {
   position: fixed;
@@ -60,4 +61,44 @@
 .active {
   color: #ffff;
   background-color: rgba(10, 7, 45, 0.756);
+}
+@media (max-width: 768px) {
+  .logoimage,
+  .logoimage2 {
+    width: 100%; /* Occupy full width */
+    justify-content: center; /* Center items horizontally */
+  }
+  .name {
+    font-size: 13px;
+    width: auto; /* Reduce font size for smaller screens */
+    font-weight: 300;
+  }
+
+  .links1,
+  .links2,
+  .links3 {
+    font-size: 11px; /* Reduce font size for smaller screens */
+    padding: 2px 6px; /* Adjust padding for smaller screens */
+  }
+  .logo {
+    height: 45px; /* Reduce size for smaller screens */
+    width: 50px; /* Reduce size for smaller screens */
+    border-radius: 50%;
+  }
+  .logoimage {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .logoimage2 {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+    margin-right: 5px;
+  }
 }

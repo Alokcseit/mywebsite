@@ -1,44 +1,87 @@
 .footer_main {
-  height: 150px;
-  width: 100%;
+  height: auto;
+  width: auto;
   background-color: rgb(51, 46, 46);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-bottom: 1px solid white;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  overflow-y: hidden; /* Prevent overflow on the right side */
 }
-.subfooter1 {
-  width: 40%;
-  height: auto;
-}
+
+.subfooter1,
 .subfooter2 {
-  width: 30%;
-  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
 }
+
 .headd {
-  color: #ffff;
-  font-size: 30px;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
+
 .paraa {
-  color: #ffff;
-  font-size: 17px;
+  color: #fff;
+  font-size: 14px;
 }
+
 .social {
-  color: #ffff;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
+
 .socialicon {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .iconsall {
-  color: #ffff;
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
 }
+
 .ftr {
   background-color: rgb(51, 46, 46);
-  height: 300px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  width: auto; /* Ensure full width */
 }
-.li1 {
+
+.ftr a {
+  color: #fff;
   text-decoration: none;
-  color: #ffff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .footer_main {
+    flex-direction: column; /* Change to column layout for mobile */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .subfooter1,
+  .subfooter2 {
+    width: 80%; /* Adjust width for smaller screens */
+  }
+
+  .headd {
+    font-size: 20px; /* Reduce font size for smaller screens */
+  }
+
+  .paraa,
+  .social {
+    font-size: 12px; /* Reduce font size for smaller screens */
+  }
+
+  .ftr {
+    overflow-wrap: break-word; /* Break words to prevent overflow */
+  }
 }

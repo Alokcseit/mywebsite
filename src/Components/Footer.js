@@ -52,7 +52,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div style={{ color: "#ffff", marginLeft: "550px", marginTop: "50px" }}>
+        <div style={{ height: "1px", backgroundColor: "white" }}></div>
+        <div className="copyright">
           © Copyright 2023. Made by ALOK KUMAR SWAIN
         </div>
       </div>

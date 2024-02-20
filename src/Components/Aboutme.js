@@ -1,7 +1,6 @@
 import "./Aboutme.css";
 import { NavLink } from "react-router-dom";
 import * as React from "react";
-import { BarChart } from "@mui/x-charts/BarChart";
 
 const skills = [
   { name: "Reactjs", abbreviation: 80 },
@@ -25,10 +24,7 @@ const skills = [
   { name: "mySql", abbreviation: 80 },
   { name: "sqlServer", abbreviation: 80 },
 ];
-const dataset = skills.map((skill) => ({
-  skills: skill.name,
-  value: skill.abbreviation,
-}));
+
 function Aboutme() {
   return (
     <>
@@ -77,7 +73,7 @@ function Aboutme() {
             </NavLink>
           </div>
           <div className="skil">
-            <h2 className="header_skill">SKILLS </h2>
+            <h2 className="header_skill">Skills </h2>
             <div className="separator">
               {skills.map((item, index) => (
                 <div className="sk" key={index}>
@@ -89,18 +85,7 @@ function Aboutme() {
         </div>
       </div>
       <br />
-      <div className="chart">
-        <BarChart
-          dataset={dataset}
-          xAxis={[
-            { scaleType: "band", dataKey: "skills", orientation: "vertical" },
-          ]} // Set the orientation to vertical
-          series={[{ dataKey: "value", label: "Skill Level" }]}
-          layout="vertical" // Set the layout to vertical
-          width={1450}
-          height={400}
-        />
-      </div>
+      <div style={{ height: "60px" }}></div>
     </>
   );
 }

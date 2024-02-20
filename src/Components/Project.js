@@ -46,7 +46,7 @@ const projects = [
   {
     id: 5,
     url: "https://crudoprtn.netlify.app/",
-    descryption: "this a small  redux project",
+    descryption: "this a small crud operation  project",
     link: "https://crudoprtn.netlify.app/",
   },
 ];
@@ -88,7 +88,7 @@ function Project() {
       <div className="nocontent">
         <div className="cards">
           <Card sx={{ width: 320 }}>
-            <div>
+            <div className="card-card">
               <Typography level="title-lg">
                 {projects[projectc].title}
               </Typography>
@@ -109,6 +109,7 @@ function Project() {
             <CardContent orientation="horizontal">
               <a href={projects[projectc].link}>
                 <Button
+                  className="button"
                   variant="solid"
                   size="md"
                   color="primary"

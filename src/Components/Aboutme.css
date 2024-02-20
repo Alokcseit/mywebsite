@@ -31,8 +31,10 @@
   background-color: rgb(48, 47, 47);
   color: #ffff;
   padding-left: 5px;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
   cursor: pointer;
+  text-align: center;
+  font-size: 20px;
 }
 .separator {
   display: flex;
@@ -43,4 +45,54 @@
 }
 .chart {
   margin-left: 20px;
+}
+@media (min-width: 768px) {
+  .divider {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .about_me,
+  .skil {
+    width: 80%; /* Reduce width for smaller screens */
+  }
+
+  .Paragraph {
+    font-size: 20px; /* Reduce font size for smaller screens */
+  }
+
+  .sk {
+    font-size: 20px; /* Reduce font size for smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  .divider {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .about_me,
+  .skil {
+    width: 80%; /* Reduce width for smaller screens */
+  }
+
+  .Paragraph {
+    font-size: 15px; /* Reduce font size for smaller screens */
+  }
+
+  .sk {
+    font-size: 15px; /* Reduce font size for smaller screens */
+  }
+  .about_me {
+    height: auto;
+  }
+  .heading_main {
+    font-size: 20px;
+  }
+  .sk {
+    font-size: 13px;
+    height: 15px;
+    width: 70px;
+    text-align: center;
+  }
 }
