@@ -112,7 +112,7 @@
 }
 @media screen and (max-width: 768px) {
   .project_animation {
-    top: 19%; /* Adjust the vertical positioning as needed */
+    top: 17%; /* Adjust the vertical positioning as needed */
   }
   .cards {
     display: flex;
