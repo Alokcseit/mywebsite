@@ -17,7 +17,7 @@ function Contact() {
   }
 
   return (
-    <>
+    <div id="contact">
       <div className="fakecontainer"></div>
       <div className="map">
         <iframe
@@ -88,7 +88,7 @@ function Contact() {
       <br />
       <br />
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 

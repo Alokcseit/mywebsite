@@ -66,7 +66,7 @@ function Project() {
   }, [projectc]);
 
   return (
-    <>
+    <div id="project">
       <div className="project_main"></div>
       <div className="project_animation">
         <div id="container33">
@@ -131,7 +131,7 @@ function Project() {
       <br />
       <br />
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 

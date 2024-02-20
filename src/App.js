@@ -6,6 +6,15 @@ import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 
 function App() {
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
   return (
     <div>
       <Router>

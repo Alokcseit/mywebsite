@@ -17,7 +17,7 @@ export default function Cntent() {
     document.head.appendChild(tidioScript);
   }, []);
   return (
-    <>
+    <div div id="cntent">
       <div className="container1">
         <div className="subc1"></div>
         <div className="subc2">
@@ -78,6 +78,6 @@ export default function Cntent() {
 
       <Aboutme></Aboutme>
       <Footer></Footer>
-    </>
+    </div>
   );
 }
